@@ -335,7 +335,7 @@ Proxy ARP
 ARP PROTOCOL STRUCTURE :
 ========================
 
-![](./RFC826_ARP_Technical_Document/media/image1.jpg){width="5.989583333333333in"
+![](./media/image1.jpg){width="5.989583333333333in"
 height="2.4479166666666665in"}
 
 > The fields in the Address Resolution Protocol (ARP) Message Format
@@ -373,7 +373,7 @@ height="2.4479166666666665in"}
 ARP STRUCTURE IN WIRESHARK:
 ===========================
 
-> ![](./RFC826_ARP_Technical_Document/media/image2.png){width="6.491666666666666in"
+> ![](./media/image2.png){width="6.491666666666666in"
 > height="4.383333333333334in"}
 >
 > ENCAPSULATION:
@@ -383,7 +383,7 @@ ARP STRUCTURE IN WIRESHARK:
 > Ethernet frame. Note that the type field indicates that the data
 > carried by the frame is an ARP packet.
 
-![](./RFC826_ARP_Technical_Document/media/image3.png){width="8.883333333333333in"
+![](./media/image3.png){width="8.883333333333333in"
 height="3.0166666666666666in"}
 
 ARP REQUEST AND REPLY:
@@ -404,7 +404,7 @@ ARP REQUEST AND REPLY:
 > address and the physical broadcast address as the destination
 > address([RFC[522]{.smallcaps}7](https://tools.ietf.org/html/rfc5227#section-2.4)).
 >
-> ![](./RFC826_ARP_Technical_Document/media/image4.png){width="9.108333333333333in"
+> ![](./media/image4.png){width="9.108333333333333in"
 > height="5.283333333333333in"}
 
 -   Every host or router receives the frame. Because the frame contains
@@ -424,7 +424,7 @@ ARP REQUEST AND REPLY:
 4 DIFFERENT CASES IN ARP :
 ==========================
 
-> ![](./RFC826_ARP_Technical_Document/media/image5.png){width="6.458333333333333in"
+> ![](./media/image5.png){width="6.458333333333333in"
 > height="4.666666666666667in"}
 >
 > ARP ATTACKS & DEFENCES
@@ -467,7 +467,7 @@ ARP POISIONING
 
 > The attacker is now secretly in the middle of all communications.
 >
-> ![](./RFC826_ARP_Technical_Document/media/image6.png){width="6.533333333333333in"
+> ![](./media/image6.png){width="6.533333333333333in"
 > height="4.991666666666666in"}
 >
 > Once the attacker succeeds in an ARP spoofing attack, they can:
@@ -495,12 +495,11 @@ DETECTION:
 > an administrator. Use the following command to display the ARP table,
 > on both Windows and Linux
 
-![](./RFC826_ARP_Technical_Document/media/image7.png){width="5.822916666666667in"
-height="4.25in"}
+![](./media/image7.png){width="5.822916666666667in" height="4.25in"}
 
 > *Figure 1: Legitimate ARP table*
 >
-> ![](./RFC826_ARP_Technical_Document/media/image8.jpg){width="4.416666666666667in"
+> ![](./media/image8.jpg){width="4.416666666666667in"
 > height="1.0416666666666667in"}
 >
 > *Figure 2: Spoofed ARP Table*
